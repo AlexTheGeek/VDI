@@ -29,7 +29,6 @@ jobs:
       - name: Build container image
         uses: redhat-actions/buildah-build@v2
         with:
-          context: ${{ env.NAME }}
           image: ${{ env.NAME }}
           tags: latest
           containerfiles: Dockerfile
