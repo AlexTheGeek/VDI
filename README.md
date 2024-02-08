@@ -6,6 +6,12 @@ This the fronted of the APP VDI. You can find the API [here](https://github.com/
 The documentation below is for the installation of the frontend only. You can find the all documentation [here](https://github.com/AlexTheGeek/api-vdi).  
 
 ## Installation
+### Automated install (Debian 11, 12 and Ubuntu 20.04)
+Run the following command to install the frontend with systemd:  
+```bash
+curl -s -S -L https://raw.githubusercontent.com/AlexTheGeek/VDI/master/install.sh | sh -s -- 
+```
+
 ### Requirements
 1. Linux : Ubuntu 20.04, Debian 11,12
 2. Python 3.11.2
